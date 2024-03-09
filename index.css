@@ -40,12 +40,16 @@ nav a:hover::after {
 	color: #f5f5f5;
 }
 
-#landing > a {
+#landing > #profile > a {
 	text-decoration: none;
 	position: absolute;
 	font-size: 10px;
 	right: 10px;
 	bottom: 5px;
+}
+
+#landing #email{
+	font-size: 0.9rem;
 }
 
 img#profile-pic	{
